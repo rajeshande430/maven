@@ -7,6 +7,8 @@ java ==>jar/war/ear
 		war is web archive
 		
 we give url to the client to download and install the package
+python - direct unit testing, no need packaging
+			packaging
 
 ----------------------------------------------------------------------------
 COMPILE : it is a process of converting a code into a package
@@ -27,3 +29,34 @@ maven is totally depends on pom.xml (project+Object+model)
 1. pom.xml
 
 maven = download or resolve all repositories
+
+FOLDER STRUCTURE
+src			
+pom.xml	
+		src/main 
+		src/test
+		
+whenever we are working on maven, we will have our local repository also and that will be stored at .m2 folder
+C:\Users\user\.m2
+whatever the dependencies that we specify at the pm.xml file all those will get downloaded over here
+in gerneral in real time we will be having a local repository, maven_home is a environment variable , if we change this our local repository will be changed.
+---------------------------------------
+settings.xml
+---------------------------------------
+we create this in our .m2 folder inside we will update the organizational repo ipaddress with username and password
+after this 
+when we use mvn compile, dependencies will download from organizational repo
+
+-----------------------------------------
+whatever we do with maven called as GOALS
+-----------------------------------------
+	1. compile
+	2. test
+	3. package
+	4. install (copying what you built and copy pom.xml to .m2 folder)
+	5. deploy
+	6. clean
+
+mvn clean compile
+mvn clean test
+mvn clean package
