@@ -1,0 +1,29 @@
+jdk - java development kit
+jre - java runtime environment
+
+In java whenever we want to deploy a project 
+java ==>jar/war/ear
+		Jar is java archive
+		war is web archive
+		
+we give url to the client to download and install the package
+
+----------------------------------------------------------------------------
+COMPILE : it is a process of converting a code into a package
+----------------------------------------------------------------------------
+
+Java - when Java runs it required a jar file or war file or ear file
+c/c++	
+.net  - we dont need require code to run the application
+
+node.js - when node.js runs it required Java script
+
+BUILDTOOLS
+ant		this is configuration files
+maven	this is convention bases, folder structure and maven reley on 
+gradle
+
+maven is totally depends on pom.xml (project+Object+model)
+1. pom.xml
+
+maven = download or resolve all repositories
