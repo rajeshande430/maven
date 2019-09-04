@@ -38,7 +38,7 @@ pom.xml
 		
 whenever we are working on maven, we will have our local repository also and that will be stored at .m2 folder
 C:\Users\user\.m2
-whatever the dependencies that we specify at the pm.xml file all those will get downloaded over here
+whatever the dependencies that we specify at the pom.xml file all those will get downloaded over here
 in gerneral in real time we will be having a local repository, maven_home is a environment variable , if we change this our local repository will be changed.
 ---------------------------------------
 settings.xml
@@ -60,3 +60,4 @@ whatever we do with maven called as GOALS
 mvn clean compile
 mvn clean test
 mvn clean package
+
